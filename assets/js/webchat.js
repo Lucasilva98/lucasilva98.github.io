@@ -1,1 +1,0 @@
-(function(i,s,g,r,j,y,b,p,t,z,a){a=s.createElement(r),a.async=1,a.src=g.concat(b,j,b,y,p,j),s.head.appendChild(a),a.onload = function(){opa.init(g,t,z)}})(window,document,'https://speedgrowthisp.opasuite.com.br','script','js','opa','/','.','630d7cf1291552f9e082eae3','{"google_credential":"","google_oauth":"","facebook_appid":"","permitir_login_anonimo":"on"}');
