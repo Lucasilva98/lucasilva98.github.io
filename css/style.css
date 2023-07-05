@@ -179,7 +179,7 @@
 
 .page-header {
     background-color: #000000;
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Prancheta.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/prancheta.png) center center no-repeat;
     background-size: cover;
 }
 
