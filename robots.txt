@@ -1,4 +1,4 @@
-
+sitemap: https://speedgrowthisp.com.br/sitemap.xml
 
 user-agent: *
 allow: /
