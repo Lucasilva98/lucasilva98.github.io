@@ -632,9 +632,22 @@ height="0" width="0" style="display:none;visibility:hidden">
 
 <!-- Webchat Opa! Suite-->
 
-<script class="webchat">
-(function(i,s,g,r,j,y,b,p,t,z,a){a=s.createElement(r),a.async=1,a.src=g.concat(b,j,b,y,p,j),s.head.appendChild(a),a.onload = function(){opa.init(g,t,z)}})(window,document,'https://opasuite.speedgrowthisp.com.br','script','js','opa','/','.','630d7cf1291552f9e082eae3','{"google_credential":"AIzaSyCwEKc1ivjUIcrvVV5SLoLbynWiAnBvKw4","google_oauth":"696016378165-8intp1999mud9j96o2n38ot9r60vkedo.apps.googleusercontent.com","facebook_appid":"1453431728739981","permitir_login_anonimo":"on"}');
-</script>
+<script>
+        (function(d,t) {
+          var BASE_URL="https://omni.nexxchat.com.br";
+          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+          g.src=BASE_URL+"/packs/js/sdk.js";
+          g.defer = true;
+          g.async = true;
+          s.parentNode.insertBefore(g,s);
+          g.onload=function(){
+            window.chatwootSDK.run({
+              websiteToken: 'QRDp1Ct4X8sTWMmoKpAAqcJw',
+              baseUrl: BASE_URL
+            })
+          }
+        })(document,"script");
+      </script>
 
 <!-- Webchat Opa! Suite End -->
 
